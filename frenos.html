@@ -245,16 +245,22 @@
   <!-- HEADER -->
   <header>
     <nav class="nav-wrapper">
-      <a href="index.html" class="logo-link">
+
+      <!--
+        LOGO: para usar tu propia imagen, reemplazá el emoji por:
+        <img src="ruta/a/tu-logo.png" alt="Logo MotoPartes" />
+        y eliminá la línea del emoji (logo-fallback)
+      -->
+      <a href="#" class="logo-link">
         <a href=""><img src="imagenes/logo.png" alt="" width="30%"></a>
       </a>
+
       <ul class="nav-links">
-        <li><a href="index.html#categorias">Categorías</a></li>
-        <li><a href="catalogo.html" class="active">Catálogo</a></li>
-        <li><a href="index.html#compatibilidad">Compatibilidad</a></li>
-        <li><a href="index.html#nosotros">Nosotros</a></li>
-        <li><a href="index.html#contacto">Contacto</a></li>
+        <li><a href="#categorias">Categorías</a></li>
+        <li><a href="mas.accs.html">Productos</a></li>
+        <li><a href="https://wa.me/5493564358678">Contacto</a></li>
       </ul>
+
       <div class="nav-actions">
         <button class="btn-cart" id="btnAbrirCarrito">
           🛒 Carrito <span class="cart-badge" id="cartBadge">0</span>
@@ -268,11 +274,9 @@
 
   <!-- MENÚ MÓVIL -->
   <div class="mobile-menu" id="mobileMenu">
-    <a href="index.html#categorias" onclick="closeMobileMenu()">Categorías</a>
-    <a href="catalogo.html" onclick="closeMobileMenu()">Catálogo</a>
-    <a href="index.html#compatibilidad" onclick="closeMobileMenu()">Compatibilidad</a>
-    <a href="index.html#nosotros" onclick="closeMobileMenu()">Nosotros</a>
-    <a href="index.html#contacto" onclick="closeMobileMenu()">Contacto</a>
+    <a href="#categorias" onclick="closeMobileMenu()">Categorías</a>
+    <a href="mas.accs.html" onclick="closeMobileMenu()">Productos</a>
+    <a href="https://wa.me/5493564358678" onclick="closeMobileMenu()">Contacto</a>
   </div>
 
   <!-- CARRITO LATERAL -->
